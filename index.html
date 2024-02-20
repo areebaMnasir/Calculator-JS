@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="calculator">
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" id="input"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="clearAll('AC')">AC</button></td>
+                    <td><button onclick="deleteEach('DE')">DE</button></td>
+                    <td><button onclick="addvalue('/')">/</button></td>
+                    <td><button onclick="addvalue('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="addvalue('7')">7</button></td>
+                    <td><button onclick="addvalue('8')">8</button></td>
+                    <td><button onclick="addvalue('9')">9</button></td>
+                    <td><button onclick="addvalue('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="addvalue('4')">4</button></td>
+                    <td><button onclick="addvalue('5')">5</button></td>
+                    <td><button onclick="addvalue('6')">6</button></td>
+                    <td><button onclick="addvalue('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="addAll('=')">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
